@@ -6,7 +6,7 @@
     <parameters>
         <param name="underscore" label="underscore download URL" type="text"
                volatile="yes" onupgrade="W"
-               default="ftp://ftp.anakeen.com/third-party/underscore-1.5.1.zip"/>
+               default="http://ftp.dynacase.org/third-party/underscore-1.5.1.zip"/>
     </parameters>
 
     <post-install>
