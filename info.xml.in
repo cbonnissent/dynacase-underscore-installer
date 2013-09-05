@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<module name="dynacase-underscore-installer" version="1.5.1" release="0" basecomponent="no">
+<module name="dynacase-underscore-installer" version="@VERSION@" release="@RELEASE@" basecomponent="no">
 
     <description>Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support without extending any of the built-in JavaScript objects.</description>
 
