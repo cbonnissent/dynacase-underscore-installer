@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
-<module name="dynacase-underscore-installer" version="@VERSION@" release="@RELEASE@" basecomponent="no">
+<module name="@PACKAGE@" version="@VERSION@" release="@RELEASE@" basecomponent="no">
 
     <description>Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support without extending any of the built-in JavaScript objects.</description>
 
     <parameters>
         <param name="underscore" label="underscore download URL" type="text"
                volatile="yes" onupgrade="W"
-               default="http://ftp.dynacase.org/third-party/underscore-1.5.1.zip"/>
+               default="http://ftp.dynacase.org/third-party/underscore-@VERSION@.zip"/>
     </parameters>
 
     <post-install>
         <download href="@underscore" action="programs/underscore_install">
-            <label lang="en">Download and install underscore
+            <label lang="en">Download and install underscore @VERSION@
             </label>
         </download>
     </post-install>
 
     <post-upgrade>
         <download href="@underscore" action="programs/underscore_install">
-            <label lang="en">Download and install underscore
+            <label lang="en">Download and install underscore @VERSION@
             </label>
         </download>
     </post-upgrade>
