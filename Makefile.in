@@ -1,5 +1,6 @@
 VERSION=@VERSION@
 RELEASE=@RELEASE@
+PACKAGE=@PACKAGE@
 
 webinst:
 	mkdir -p tmp
