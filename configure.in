@@ -7,4 +7,6 @@ VERSION=`cat VERSION`
 AC_SUBST(RELEASE)
 RELEASE=`cat RELEASE`
 
+
+
 AC_OUTPUT(Makefile info.xml)
